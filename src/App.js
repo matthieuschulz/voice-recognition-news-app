@@ -11,6 +11,8 @@ const App = () => {
             if(command === 'newHeadlines') {
                 console.log(articles);
             }
+
+
             
         }
     })
