@@ -8,15 +8,11 @@ const App = () => {
         alanBtn({ 
 
 
-
-            
-
             key: alanKey,
         onCommand: ( {command, articles}) => {
             if(command === 'newHeadlines') {
                 console.log(articles);
             }
-
 
         }
     })
@@ -28,5 +24,6 @@ const App = () => {
         </div>
     );
 }
+
 
 export default App;
