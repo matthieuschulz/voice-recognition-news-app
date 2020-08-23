@@ -7,6 +7,7 @@ const App = () => {
     useEffect(() => {
         alanBtn({ 
 
+            
 
             key: alanKey,
         onCommand: ( {command, articles}) => {
@@ -25,16 +26,6 @@ const App = () => {
     );
     
 }
-
-
-
-
-
-
-
-
-
-
 
 
 export default App;
