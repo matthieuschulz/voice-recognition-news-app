@@ -23,9 +23,15 @@ const App = () => {
            <h1>Alan AI News Application</h1> 
         </div>
     );
-
     
 }
+
+
+
+
+
+
+
 
 
 
