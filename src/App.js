@@ -16,9 +16,10 @@ const App = () => {
                 console.log(articles);
             }
 
+            
         }
     })
-    
+
     }, [])
 
     return (
