@@ -13,6 +13,7 @@ const App = () => {
 
             
 
+            
 
         onCommand: ( {command, articles}) => {
             if(command === 'newHeadlines') {
