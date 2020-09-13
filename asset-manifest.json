@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/voice-recognition-news-app/static/css/main.041c3db4.chunk.css",
+    "main.js": "/voice-recognition-news-app/static/js/main.7d6f9d3e.chunk.js",
+    "main.js.map": "/voice-recognition-news-app/static/js/main.7d6f9d3e.chunk.js.map",
+    "runtime-main.js": "/voice-recognition-news-app/static/js/runtime-main.6512503a.js",
+    "runtime-main.js.map": "/voice-recognition-news-app/static/js/runtime-main.6512503a.js.map",
+    "static/js/2.a8b0103f.chunk.js": "/voice-recognition-news-app/static/js/2.a8b0103f.chunk.js",
+    "static/js/2.a8b0103f.chunk.js.map": "/voice-recognition-news-app/static/js/2.a8b0103f.chunk.js.map",
+    "index.html": "/voice-recognition-news-app/index.html",
+    "precache-manifest.9f06b274bea0ba75eb7e4476618dc500.js": "/voice-recognition-news-app/precache-manifest.9f06b274bea0ba75eb7e4476618dc500.js",
+    "service-worker.js": "/voice-recognition-news-app/service-worker.js",
+    "static/css/main.041c3db4.chunk.css.map": "/voice-recognition-news-app/static/css/main.041c3db4.chunk.css.map",
+    "static/js/2.a8b0103f.chunk.js.LICENSE.txt": "/voice-recognition-news-app/static/js/2.a8b0103f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6512503a.js",
+    "static/js/2.a8b0103f.chunk.js",
+    "static/css/main.041c3db4.chunk.css",
+    "static/js/main.7d6f9d3e.chunk.js"
+  ]
+}
