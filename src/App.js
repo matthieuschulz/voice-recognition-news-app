@@ -9,9 +9,12 @@ const App = () => {
     useEffect(() => {
         alanBtn({ 
 
+
+            
             key: alanKey,
 
             
+
 
             
 
@@ -21,6 +24,7 @@ const App = () => {
             if(command === 'newHeadlines') {
                 console.log(articles);
             }
+
 
 
         }
