@@ -13,24 +13,15 @@ const App = () => {
             if(command === 'newHeadlines') {
                 console.log(articles);
             }
-
-
         }
-        
-        
     })
-    
 
     }, [])
-
     return (
         <div>
            <h1>Alan AI News Application</h1> 
         </div>
-    );
-    
+    );    
 }
-
-
 
 export default App;
