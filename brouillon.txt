@@ -1,0 +1,57 @@
+// Name News
+// Description: Gives the latest headlines on topics like health, science, entertainment, sports, business, and technology.Each news headline has a corresponding image.
+// There is news by source, news by term, news by category
+
+title('News Reader App');
+
+const API_KEY = 'b12c533c8f014fffbee9f2a6cccae675';
+
+//variable to save article
+let savedArticles = []; // empty array at the start but we will populate them after
+
+
+intent('What does this app do?', 'What can I do here?','What is this app?','How does this work?','Hows should I use this?', 'Hello',
+     reply('Hi, My name is Alan and its a pleasure meeting you. This is a news project, it can provide the most recent headlines in mainstream media using NewsAPI.org. You can ask for the latest news by saying "Give me the latest news". You can also search for particuliar news. Basically, this is a cool project'));
+
+
+// FIRST WAY OF GETTING THE NEWS: SOURCE
+
+// NEWS BY SOURCE (we are creating an API endpoint for news by source)
+// example: give me the news from BBC
+
+intent('Give me the news from $(source* (.*))', (p) => { //source is the name of the variable
+    
+    let NEWS_API_URL = `https://newsapi.org/v2/top-headlines?apiKey=apiKey=${API_KEY}`; // we get the api url, source will be said dynamically
+    
+        if (p.source.value){ // to retrieve value from voice
+            NEWS_API_URL = `${NEWS_API_URL}&sources=${p.source.value.toLowerCase().split(" ").join('-')}`; // if the value exists, put lowercase + dash
+        }
+    
+    //once we have the crrect news api url, we make thecall
+    
+    //to make api call: 
+    api.request(NEWS_API_URL, (error, response, body) => {
+        
+        const { articles } = JSON.parse(body); // way to get the data from api call using api request
+        
+        //if user input is not understood
+        
+        if(!articles.length){
+            p.play('I was not able to get the news. Sorry. Please try searching for news from a different source');
+            return;
+        }
+        
+        // if we do get articles, create a global variable (see line 10)
+        
+        savedArticles = articles; // populate them with the data from the api
+        
+        //once we have the articles
+         
+        p.play({command: 'newHeadlines', articles });
+        p.play(`Here are the (latest | recent| most up to date) ${p.source.value} news.`);
+        
+        
+    });
+    
+    
+    })
