@@ -20,13 +20,14 @@ const App = () => {
 
         }
 
-        
+
 
 
 
         
     })
 
+    
     }, [])//second parameter is a dependency array)
     return (
         <div>
