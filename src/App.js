@@ -12,11 +12,12 @@ const App = () => {
 
             key: alanKey, // key that allows us to use alan
 
-            
+
         onCommand: ( {command, articles}) => { // when alan heres this command...,
             if(command === 'newHeadlines') {
                 setNewsArticles(articles);
             }
+            
         }
 
 
