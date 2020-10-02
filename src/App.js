@@ -15,6 +15,7 @@ const App = () => {
 
 
 
+            
 
         onCommand: ( {command, articles}) => { // when alan heres this command...,
             if(command === 'newHeadlines') {
@@ -24,7 +25,7 @@ const App = () => {
         }
 
 
-        
+
 
 
 
