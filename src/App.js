@@ -11,7 +11,7 @@ const App = () => {
     // first paratmeter is a callback function
         alanBtn({ 
 
-            
+
             key: alanKey, // key that allows us to use alan
 
         onCommand: ( {command, articles}) => { // when alan heres this command...,
@@ -19,21 +19,10 @@ const App = () => {
                 setNewsArticles(articles);
             }
 
-
-
         }
-
-
-
-
-
-
-
-
+        
         
     })
-
-
 
     }, [])//second parameter is a dependency array)
     return (
