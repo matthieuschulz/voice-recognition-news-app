@@ -2,7 +2,7 @@
 
 ### [Live Site](https://matthieuschulz.me/voice-recognition-news-app/)
 
-![Voice Controlled React News Application](https://i.ibb.co/SVyK6Nh/Screenshot-2020-08-03-at-21-24-23.png)
+![Voice Controlled React News Application](file:///Users/matthieuschulz/Desktop/68747470733a2f2f692e6962622e636f2f5356794b364e682f53637265656e73686f742d323032302d30382d30332d61742d32312d32342d32332e706e67.png)
 
 ## Introduction
 
