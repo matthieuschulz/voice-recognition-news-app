@@ -12,6 +12,7 @@ const App = () => {
         alanBtn({ 
 
 
+
             key: alanKey, // key that allows us to use alan
 
         onCommand: ( {command, articles}) => { // when alan heres this command...,
@@ -21,7 +22,7 @@ const App = () => {
             }
         }
 
-        
+
     })
 
     }, [])//second parameter is a dependency array)
