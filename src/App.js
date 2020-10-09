@@ -17,6 +17,7 @@ const App = () => {
         onCommand: ( {command, articles}) => { // when alan heres this command...,
             if(command === 'newHeadlines') {
                 setNewsArticles(articles);
+                
             }
 
         }
@@ -38,7 +39,7 @@ const App = () => {
            <NewsCards articles = {newsArticles}/>
         </div>
     );    
-    
+
 }
 
 export default App;
