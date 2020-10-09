@@ -18,6 +18,7 @@ const App = () => {
             if(command === 'newHeadlines') {
                 setNewsArticles(articles);
                 
+
             }
 
         }
