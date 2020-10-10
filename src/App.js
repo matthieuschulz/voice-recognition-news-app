@@ -23,13 +23,14 @@ const App = () => {
         }
 
 
-        
+
     })
 
     }, [])//second parameter is a dependency array)
     return (
         <div>
            <h1>Voice Recognition New App using AlanAI</h1> 
+
 
            <NewsCards articles = {newsArticles}/>
         </div>
