@@ -32,6 +32,7 @@ const App = () => {
            <h1>Voice Recognition New App using AlanAI</h1> 
 
 
+
            <NewsCards articles = {newsArticles}/>
         </div>
     );    
