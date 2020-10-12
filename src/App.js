@@ -22,9 +22,10 @@ const App = () => {
             }
         }
 
-
-
         
+
+
+
     })
 
     }, [])//second parameter is a dependency array)
