@@ -9,6 +9,7 @@ const NewsCards = ( {articles}) => {
             <NewsCard /> 
          ))}  
         </div>
+        
     )
 }
 
