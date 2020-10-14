@@ -11,7 +11,8 @@ const NewsCards = ( {articles}) => {
         </div>
         
     )
-    
+
 }
 
 export default NewsCards
+
